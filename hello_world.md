@@ -21,5 +21,3 @@
 4. ...
 5. Fifth element
 
-
-Hryapa hryapa
