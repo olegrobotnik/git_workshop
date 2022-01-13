@@ -13,4 +13,8 @@ If git installed you'll see a verion number otherwise eroor message.
 
 ## Check git installation 
 
+Download last version of git from https://git-scm.com/downloads
+
+Then
+
 ```git init```
