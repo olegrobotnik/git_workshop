@@ -15,6 +15,8 @@ If git installed you'll see a verion number otherwise eroor message.
 
 Download last version of git from https://git-scm.com/downloads
 
+[Download last version of git from "https://git-scm.com/downloads"](https://git-scm.com/downloads)
+
 Then
 
 ```git init```
