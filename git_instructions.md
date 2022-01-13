@@ -12,3 +12,5 @@ git --version
 If git installed you'll see a verion number otherwise eroor message.
 
 ## Check git installation 
+
+```git init```
