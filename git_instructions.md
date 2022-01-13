@@ -3,6 +3,8 @@
 ## Check git installation
 
 To check version you should run commmand (in terminal):
+```git --version```
+
 ```
 git --version
 ```
