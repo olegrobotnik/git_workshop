@@ -38,4 +38,5 @@ git init
 
 After that git creates an empty git repository with a .git directory, subdirectories & template files. And intial branch without commits will be created.
 
+## Basic git commands
 
