@@ -62,6 +62,21 @@ The next command show you the working tree status.
 git status
 ```
 
+This command ```git diff``` show you difference between the working tree and the index or a tree.
+Show difference between you working copy & the index.
+```
+git diff
+```
+Show difference between the index & the last commit.
+```
+git diff --staged
+```
+Show difference between any last commits in branches.
+```
+git diff master another_branch
+```
 
 
 
+git checkout master
+git log
