@@ -11,13 +11,13 @@ git --version
 
 You'll see a version number if git is installed otherwise you'll get an error message.
 
-If it is just not installed download the latest version of git from https://git-scm.com/downloads.
+If it is just not installed download the latest version of git from https://git-scm.com/downloads or install it from [PowerShell](https://github.com/PowerShell/PowerShell/releases/download/v7.2.1/PowerShell-7.2.1-win-x64.msi) via winget command.
 
 [Download last version of git from git website](https://git-scm.com/downloads).
 
 ## Set-up git
 
-You should introduce yourself to git.
+You should introduce yourself to git. Enter your name and an email.
 
 ```
 git config --global user.name «Your name in english»
