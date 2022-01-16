@@ -40,3 +40,28 @@ After that git creates an empty git repository with a .git directory, subdirecto
 
 ## Basic git commands
 
+Only a few commands are needed for the basic use case of git for maintaining the history of changes.
+
+This command ```git add``` add file content to the index. It updates the index using content found in the working tree and prepares the content for the subsequent commit. The index holds a snapshot of the content of the working tree, but not a whole file. An it contains changes made on the last commit.
+```
+git add your_file.md
+```
+ 
+This command record changes to the repository. It takes all data added with ```git add``` and saves a snapshot in git internal database and makes it the last point in your branch.
+```
+git commit -m "Your_commit_comment"
+```
+
+If you wanna to commit whithout add you should run command with an option ```-a```.
+```
+git commit -a -m "Your_commit_comment"
+```
+The next command show you the working tree status.
+
+```
+git status
+```
+
+
+
+
