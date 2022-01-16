@@ -3,7 +3,7 @@
 ## Check git is installed and available
 
 First install Visual Studio Code. 
-Then check a git version. You should run commmand in terminal: ```git --version```
+Then check a git version. You should run commmand ```git --version``` in the terminal. 
 
 ```
 git --version
