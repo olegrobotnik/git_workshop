@@ -76,7 +76,16 @@ Show difference between any last commits in branches.
 git diff master another_branch
 ```
 
+Use it to switch between branches.
+```
+git checkout
+```
 
-
-git checkout master
+Use this command ```git log``` to show commit history.
+```
 git log
+```
+Use it with option to show it like a tree in graphical mode.
+```
+git log --graph
+```
