@@ -107,9 +107,14 @@ If you want to exclude files from tracking by git you should create ```.gitignor
 
 > ## Create branches
 
-To create branche and switch to it:
+To create branches and switch to it:
 ```
 git chechout -b new_branch_name
+Branch is a simple movable pointer to the one of the commits. Usuaally the latest in a chain of commits. The main branch in git is ```master```.
+To create new branch run: 
+
+```
+git branch branch_name
 ```
 
 > ## Merge branches
