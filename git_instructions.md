@@ -1,3 +1,5 @@
+![git logo](git_logo.png "git logo")
+
 > # Workin' with git
 
 > ## Check git is installed and available
@@ -11,9 +13,9 @@ git --version
 
 You'll see a version number if git is installed otherwise you'll get an error message.
 
-If it is just not installed download the latest version of git from https://git-scm.com/downloads or install it from [PowerShell](https://github.com/PowerShell/PowerShell/releases/download/v7.2.1/PowerShell-7.2.1-win-x64.msi "PowerShell") via winget command.
-[Download the latest version of git from git website](https://git-scm.com/downloads).
+If it's just not installed download the latest version of git from https://git-scm.com/downloads or install it from [PowerShell](https://github.com/PowerShell/PowerShell/releases/download/v7.2.1/PowerShell-7.2.1-win-x64.msi) via winget command.
 
+[Download the latest version of git from official git website](https://git-scm.com/downloads "Another linkt to git downloads").
 
 > ## Set-up git
 
