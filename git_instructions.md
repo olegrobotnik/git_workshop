@@ -99,5 +99,15 @@ A typical output of ```git log --graph``` looks like this:
 
 
 
-> ## Workshop 2
+> # Workshop 2
+
+> ## Ignore files
+
+> ## Create branches
+
+> ## Merge branches
+
+> ## Solve conflicts
+
+> ## Delete branches
 
