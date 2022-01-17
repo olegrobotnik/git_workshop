@@ -1,6 +1,6 @@
-# Workin' with git
+> # Workin' with git
 
-## Check git is installed and available
+> ## Check git is installed and available
 
 First install Visual Studio Code. 
 Then check a git version. You should run commmand ```git --version``` in the terminal. 
@@ -15,7 +15,7 @@ If it is just not installed download the latest version of git from https://git-
 
 [Download last version of git from git website](https://git-scm.com/downloads).
 
-## Set-up git
+> ## Set-up git
 
 You should introduce yourself to git. Enter your name and an email.
 
@@ -38,7 +38,7 @@ git init
 
 After that git creates an empty git repository with a .git directory, subdirectories & template files. And intial branch without commits will be created.
 
-## Basic git commands
+> ## Basic git commands
 
 Only a few commands are needed for the basic use case of git for maintaining the history of changes.
 
