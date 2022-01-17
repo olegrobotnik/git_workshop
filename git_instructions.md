@@ -1,3 +1,5 @@
+![git logo](git_logo.png "git logo")
+
 > # Workin' with git
 
 > ## Check git is installed and available
