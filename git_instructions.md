@@ -89,3 +89,6 @@ Use it with option to show it like a tree in graphical mode.
 ```
 git log --graph
 ```
+A typical output of ```git log --graph``` looks like this:
+
+![git log --graph output](git_log_graph.png "git log --graph")
