@@ -107,6 +107,11 @@ If you want to exclude files from tracking by git you should create ```.gitignor
 
 > ## Create branches
 
+To create branche and switch to it:
+```
+git chechout -b new_branch_name
+```
+
 > ## Merge branches
 
 > ## Solve conflicts
