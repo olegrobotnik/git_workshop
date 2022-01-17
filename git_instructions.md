@@ -105,6 +105,13 @@ A typical output of ```git log --graph``` looks like this:
 
 > ## Create branches
 
+Branch is a simple movable pointer to the one of the commits. Usuaally the latest in a chain of commits. The main branch in git is ```master```.
+To create new branch run: 
+
+```
+git branch branch_name
+```
+
 > ## Merge branches
 
 > ## Solve conflicts
