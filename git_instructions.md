@@ -96,3 +96,20 @@ git log --graph
 A typical output of ```git log --graph``` looks like this:
 
 ![git log --graph output](git_log_graph.png "git log --graph")
+
+
+
+> # Workshop 2
+
+> ## Ignore files
+
+If you want to exclude files from tracking by git you should create ```.gitignore``` file  and fill it with filenames or file masks. Like this ```*.jpg```.
+
+> ## Create branches
+
+> ## Merge branches
+
+> ## Solve conflicts
+
+> ## Delete branches
+
