@@ -108,6 +108,13 @@ A typical output of ```git log --graph``` looks like this:
 > ## Merge branches
 
 > ## Solve conflicts
+There are two types of conflicts: 
+* Git fails to start the merge. 
+* Git fails during the merge.
 
+Git will fail to start merge if there are pending changes in the working directory or staging area of the current project. You should commit pending changes and try again.
+
+Git will fail during the merge because of conflict of contents in files which it merge. It indicates a conflict between the current local branch and the branch being merged.
+When conflict occurs you can resolve it by accepting current changes, incoming changes or both changes.
 > ## Delete branches
 
