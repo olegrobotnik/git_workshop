@@ -139,4 +139,7 @@ Warning: Running git merge with non-trivial uncommitted changes is discouraged: 
 > ## Solve conflicts
 
 > ## Delete branches
-
+To delete a remote branch use `git push` command:
+``` 
+git push origin --delete remote_branch_name
+```
