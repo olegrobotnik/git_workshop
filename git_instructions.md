@@ -121,6 +121,11 @@ To switch between branches run:
 git checkout branch_name
 ```
 > ## Merge branches
+To merge two or more development histories use `git merge` command. The merge will be provided with an actual branch you are in and a branch you selected:
+```
+git merge branch_name
+```
+
 
 > ## Solve conflicts
 
