@@ -85,6 +85,8 @@ The command `git checkout` move pointer HEAD to a different branch. Also ypu can
 git checkout
 ```
 
+
+
 Use this command ```git log``` to show commit history.
 ```
 git log
@@ -103,7 +105,7 @@ A typical output of ```git log --graph``` looks like this:
 
 > ## Ignore files
 
-If you want to exclude files from tracking by git you should create ```.gitignore``` file  and fill it with filenames or file masks. Like this ```*.jpg```.
+If you want to exclude files from tracking by git you should create ```.gitignore``` file and fill it with filenames or file masks. Like this ```*.jpg```.
 
 > ## Create branches
 
@@ -126,7 +128,14 @@ To merge two or more development histories use `git merge` command. The merge wi
 git merge branch_name
 ```
 
+You can also create new branch and switch to it with `git switch` command. But be warned about this command. It is experimental and its behavior may change. 
+```
+git switch -c new_branch_name
+```
+> ## Merge branches
+Use `--no-commit` to perform merge with stop before commit. It is used to inspect and tweak the merge result befor committing.
 
+Warning: Running git merge with non-trivial uncommitted changes is discouraged: while possible, it may leave you in a state that is hard to back out of in the case of a conflict.
 > ## Solve conflicts
 
 > ## Delete branches
