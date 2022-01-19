@@ -85,6 +85,8 @@ Use it to switch between branches.
 git checkout
 ```
 
+
+
 Use this command ```git log``` to show commit history.
 ```
 git log
@@ -104,7 +106,10 @@ A typical output of ```git log --graph``` looks like this:
 > ## Ignore files
 
 > ## Create branches
-
+You can also create new branch and switch to it with `git switch` command. But be warned about this command. It is experimental and its behavior may change. 
+```
+git switch -c new_branch_name
+```
 > ## Merge branches
 Use `--no-commit` to perform merge with stop before commit. It is used to inspect and tweak the merge result befor committing.
 
