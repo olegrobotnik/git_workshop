@@ -137,7 +137,14 @@ Use `--no-commit` to perform merge with stop before commit. It is used to inspec
 
 Warning: Running git merge with non-trivial uncommitted changes is discouraged: while possible, it may leave you in a state that is hard to back out of in the case of a conflict.
 > ## Solve conflicts
-!!!!!!!
+There are two types of conflicts: 
+* Git fails to start the merge. 
+* Git fails during the merge.
+
+Git will fail to start merge if there are pending changes in the working directory or staging area of the current project. You should commit pending changes and try again.
+
+Git will fail during the merge because of conflict of contents in files which it merge. It indicates a conflict between the current local branch and the branch being merged.
+When conflict occurs you can resolve it by accepting current changes, incoming changes, both changes or compare it.
 > ## Delete branches
 Use `git branch` with the option`-d` to delete branches.
 ```
