@@ -110,4 +110,13 @@ A typical output of ```git log --graph``` looks like this:
 > ## Solve conflicts
 
 > ## Delete branches
+Use `git branch` with the option`-d` to delete branches.
+```
+git branch -d local_branch_name
+```
 
+Use the command below to delete branch when it contains commits that not merged into local branches. Please be careful with the capital dee "-D" option. 
+
+```
+git branch -D local_branch_name
+```
