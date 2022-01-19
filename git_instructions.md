@@ -115,8 +115,12 @@ Use `git branch` with the option`-d` to delete branches.
 git branch -d local_branch_name
 ```
 
-Use the command below to delete branch when it contains commits that not merged into local branches. Please be careful with the capital dee "-D" option. 
+Use the command below to delete branch when it contains commits that not fully merged into local branches. Please be careful with the capital dee "-D" option. 
 
 ```
 git branch -D local_branch_name
+```
+To show only remote repositories use options `-r` or `--remotes`:
+```
+git branch -r
 ```
