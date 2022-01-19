@@ -152,6 +152,7 @@ git branch -D local_branch_name
 To show only remote repositories use options `-r` or `--remotes`:
 ```
 git branch -r
+```
 To delete a remote branch use `git push` command:
 ``` 
 git push origin --delete remote_branch_name
