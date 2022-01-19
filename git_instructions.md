@@ -80,7 +80,7 @@ Show difference between any last commits in branches.
 git diff master another_branch
 ```
 
-Use it to switch between branches.
+The command `git checkout` move pointer HEAD to a different branch. Also ypu can restore a historic version of a specific file. Use this command to switch between commmits or branches. See other feature below.
 ```
 git checkout
 ```
@@ -107,7 +107,7 @@ If you want to exclude files from tracking by git you should create ```.gitignor
 
 > ## Create branches
 
-To create branches and switch to it:
+To create branch and switch to it:
 ```
 git chechout -b new_branch_name
 ```
