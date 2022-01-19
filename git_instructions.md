@@ -80,7 +80,7 @@ Show difference between any last commits in branches.
 git diff master another_branch
 ```
 
-Use it to switch between branches.
+The command `git checkout` move pointer HEAD to a different branch. Also ypu can restore a historic version of a specific file. Use this command to switch between commmits or branches. See other feature below.
 ```
 git checkout
 ```
@@ -104,6 +104,8 @@ A typical output of ```git log --graph``` looks like this:
 > # Workshop 2
 
 > ## Ignore files
+
+If you want to exclude files from tracking by git you should create ```.gitignore``` file  and fill it with filenames or file masks. Like this ```*.jpg```.
 
 > ## Create branches
 You can also create new branch and switch to it with `git switch` command. But be warned about this command. It is experimental and its behavior may change. 
