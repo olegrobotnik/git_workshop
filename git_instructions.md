@@ -106,7 +106,7 @@ A typical output of ```git log --graph``` looks like this:
 > ## Create branches
 
 > ## Merge branches
-
+Warning: Running git merge with non-trivial uncommitted changes is discouraged: while possible, it may leave you in a state that is hard to back out of in the case of a conflict.
 > ## Solve conflicts
 
 > ## Delete branches
