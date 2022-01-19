@@ -80,10 +80,12 @@ Show difference between any last commits in branches.
 git diff master another_branch
 ```
 
-Use it to switch between branches.
+The command `git checkout` move pointer HEAD to a different branch. Also ypu can restore a historic version of a specific file. Use this command to switch between commmits or branches. See other feature below.
 ```
 git checkout
 ```
+
+
 
 Use this command ```git log``` to show commit history.
 ```
@@ -103,10 +105,37 @@ A typical output of ```git log --graph``` looks like this:
 
 > ## Ignore files
 
+If you want to exclude files from tracking by git you should create ```.gitignore``` file and fill it with filenames or file masks. Like this ```*.jpg```.
+
 > ## Create branches
 
+To create branch and switch to it:
+```
+git chechout -b new_branch_name
+```
+Branch is a simple movable pointer to the one of the commits. Usuaally the latest in a chain of commits. The main branch in git is ```master```.
+To create new branch run: 
+```
+git branch branch_name
+```
+To switch between branches run:
+```
+git checkout branch_name
+```
 > ## Merge branches
+To merge two or more development histories use `git merge` command. The merge will be provided with an actual branch you are in and a branch you selected:
+```
+git merge branch_name
+```
 
+You can also create new branch and switch to it with `git switch` command. But be warned about this command. It is experimental and its behavior may change. 
+```
+git switch -c new_branch_name
+```
+> ## Merge branches
+Use `--no-commit` to perform merge with stop before commit. It is used to inspect and tweak the merge result befor committing.
+
+Warning: Running git merge with non-trivial uncommitted changes is discouraged: while possible, it may leave you in a state that is hard to back out of in the case of a conflict.
 > ## Solve conflicts
 
 > ## Delete branches
@@ -123,4 +152,7 @@ git branch -D local_branch_name
 To show only remote repositories use options `-r` or `--remotes`:
 ```
 git branch -r
+To delete a remote branch use `git push` command:
+``` 
+git push origin --delete remote_branch_name
 ```
