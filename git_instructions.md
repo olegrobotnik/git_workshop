@@ -145,6 +145,13 @@ Git will fail to start merge if there are pending changes in the working directo
 
 Git will fail during the merge because of conflict of contents in files which it merge. It indicates a conflict between the current local branch and the branch being merged.
 When conflict occurs you can resolve it by accepting current changes, incoming changes, both changes or compare it.
+
+You can abort process of merging and restore the state before it.
+```
+git merge --abort
+```
+
+
 > ## Delete branches
 Use `git branch` with the option`-d` to delete branches.
 ```
