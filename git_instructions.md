@@ -173,4 +173,8 @@ git push origin --delete remote_branch_name
 ```
 
 > ## Branching & switching between commits
-You can switch between commits to revise it by using `git checkout commit_number`. This command updates the HEAD to point to either the specified branch or commit. When the HEAD points to a branch it is okay, but when you point to commit Git switches to detached HEAD state. This warning is important because all of your work that you are doing in this state is detached from the rest of development. If you continue to commit changes in this state there would be no branch to get back to it. So develop only in branch but not in the detached HEAD state.
+You can temporarily switch between commits to revise it by using `git checkout commit_number`. This command updates the HEAD to point to either the specified branch or commit. When the HEAD points to a branch it is okay, but when you point to commit Git switches to detached HEAD state. This warning is important because all of your work that you are doing in this state is detached from the rest of development. If you continue to commit changes in this state there would be no branch to get back to it. So develop only in branch but not in the detached HEAD state.
+
+If you want to get back to actual state use for example `git checkout master`.
+
+You can switch to commit and continue work from it use `git checkout -b new_branch_name commit_number`
