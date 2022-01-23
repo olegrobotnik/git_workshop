@@ -171,3 +171,5 @@ To delete a remote branch use `git push` command:
 ``` 
 git push origin --delete remote_branch_name
 ```
+
+> ## Branching & switching between commits
