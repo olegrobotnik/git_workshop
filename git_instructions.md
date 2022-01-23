@@ -175,3 +175,5 @@ You can temporarily switch between commits to revise it by using `git checkout c
 If you want to get back to actual state use for example `git checkout master`.
 
 You can switch to commit and continue work from it use `git checkout -b new_branch_name commit_number`
+
+> ## Working with a remote repositories
