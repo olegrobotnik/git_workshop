@@ -177,3 +177,17 @@ If you want to get back to actual state use for example `git checkout master`.
 You can switch to commit and continue work from it use `git checkout -b new_branch_name commit_number`
 
 > ## Working with a remote repositories
+
+Git allows collaboration with others developers via distributed collaboration model. All developers got their own copy of the repository and they work with it. Users typically share a bunch of commits. Git allows sharing entire branches between repositories.  
+
+Use `git remote` to create, delete and review connections to other remote repositories. Remote repositories in git are like bookmarks and do not give you a real-time connection to it.
+
+Use `git remote` or `git remote -v ` to view available remote connections.
+
+Use the command below to add connections. "Name" is a convenient tag to your remote repository. You can also add it by configuring `/.git/config` file.
+```
+git remote add name URL
+```
+Use `git remote rm name` command to delete connection.
+
+
