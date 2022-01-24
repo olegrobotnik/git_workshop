@@ -196,4 +196,5 @@ The command below creates branch in the remote repository. `git push` pushes the
 ```
 git push <remote> <branch>
 ```
-
+The `git pull` command is used to 
+download changes and update a local repository to match a content. It's a combination of two actions, fetch changes and merge it with a local repository. It creates a new merge commit.
