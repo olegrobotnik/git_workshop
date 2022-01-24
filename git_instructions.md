@@ -190,4 +190,9 @@ git remote add name URL
 ```
 Use `git remote rm name` command to delete connection.
 
+The `git push` command is used for uploading content of a local repository to a remote repository.
 
+The command below creates branch in the remote repository. `git push` pushes the specified branch with necessary commits and files to a remote repository. It is the same as merging branch with a main branch from inside a remote repository.
+```
+git push <remote> <branch>
+```
